@@ -1,0 +1,30 @@
+/*Base styles*/
+
+/*Desktop view*/
+@media (min-width: 1200px) {
+
+	section {
+		width: 33.33%;
+		float: left;
+	}
+
+}
+/*tablette view*/
+@media (min-width: 768px) and (max-width: 1199px){
+	section {
+		width: 33.33%;
+		float: left;
+	}
+	.cl2 {
+		width: 100%;
+	}
+
+}
+/*mobile view*/
+@media (max-width: 767px){
+	section {
+		/*width: 33.33%;*/
+		float: left;
+	}
+
+}
