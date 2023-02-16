@@ -1,5 +1,19 @@
 /*Base styles*/
+* {
+	box-sizing: border-box;
+}
+section {
+	border: black 1px solid;
+	background-color: gray;
+	/*position: relative;*/
+	clear: right;
 
+}
+h2 {
+	float: right;
+	position: relative;
+	border: 1px solid black;
+}
 /*Desktop view*/
 @media (min-width: 1200px) {
 
